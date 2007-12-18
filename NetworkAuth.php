@@ -9,16 +9,7 @@ if (!defined('MEDIAWIKI')) {
 	exit(1);
 }
 
-$wgNetworkAuthUsers[] = array(
-	'iprange' 		=> '68.112.142.161/32',
-	'ippattern' 	=> '/68\.112\.142\.16+/',
-	'user'    		=> 'TimsComputer');
-
-$wgNetworkAuthUsers[] = array(
-	'iprange' 		=> '199.17.29.0/24',
-	'hostpattern' 	=> '/mc-mobile.*\.stcloudstate.edu/i',
-	'user'    		=> 'HelpdeskComputer');
-
+$wgNetworkAuthUsers[] = array();
 
 $wgExtensionCredits['other'][] = array(
 	'name'        => 'NetworkAuth',
