@@ -51,29 +51,50 @@ function efNetworkAuth_checkForNetworkAuthUser() {
 	foreach ($wgNetworkAuthUsers as $networkAuthUser) {
 		if ( isset( $networkAuthUser['user'] ) ) {
 			if ( isset( $networkAuthUser['iprange'] ) ) {
+				if ( is_array( $networkAuthUser['iprange'] ) )
+					$ranges = $networkAuthUser['iprange'];
+				else
+					$ranges = explode("\n", $networkAuthUser['iprange']);
+					
 				$hex = IP::toHex( $ip );
-				$range = IP::parseRange( $networkAuthUser['iprange'] );
-				if ( $hex >= $range[0] && $hex <= $range[1] ) {
-					global $wgNetworkAuthHost;
-					$wgNetworkAuthHost = $ip;
-					return $networkAuthUser['user'];
+				foreach ( $ranges as $range ) {
+					$parsedRange = IP::parseRange( $range );
+					if ( $hex >= $parsedRange[0] && $hex <= $parsedRange[1] ) {
+						global $wgNetworkAuthHost;
+						$wgNetworkAuthHost = $ip;
+						return $networkAuthUser['user'];
+					}
 				}
 			} 
 			
 			if ( isset( $networkAuthUser['ippattern'] ) ) {
-				if ( preg_match( $networkAuthUser['ippattern'],  $ip) ) {
-					global $wgNetworkAuthHost;
-					$wgNetworkAuthHost = $ip;
-					return $networkAuthUser['user'];
+				if ( is_array( $networkAuthUser['ippattern'] ) )
+					$patterns = $networkAuthUser['ippattern'];
+				else
+					$patterns = explode("\n", $networkAuthUser['ippattern']);
+					
+				foreach ( $patterns as $pattern ) {
+					if ( preg_match( $pattern,  $ip) ) {
+						global $wgNetworkAuthHost;
+						$wgNetworkAuthHost = $ip;
+						return $networkAuthUser['user'];
+					}
 				}
 			}
 
 			if ( isset( $networkAuthUser['hostpattern'] ) ) {
+				if ( is_array( $networkAuthUser['hostpattern'] ) )
+					$patterns = $networkAuthUser['hostpattern'];
+				else
+					$patterns = explode("\n", $networkAuthUser['hostpattern']);
+			
 				$host = ar_gethostbyaddr( $ip );
-				if ( preg_match( $networkAuthUser['hostpattern'],  $host) ) {
-					global $wgNetworkAuthHost;
-					$wgNetworkAuthHost = $host;
-					return $networkAuthUser['user'];
+				foreach ( $patterns as $pattern ) {
+					if ( preg_match( $pattern,  $host) ) {
+						global $wgNetworkAuthHost;
+						$wgNetworkAuthHost = $host;
+						return $networkAuthUser['user'];
+					}
 				}
 			}
 		} else {
