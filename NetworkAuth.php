@@ -29,17 +29,21 @@ function efNetworkAuth_Setup() {
 		
 		if (is_object($pageTitle)) {
 			# Doesn't apply to Userlogin and Userlogout pages - that breaks stuff
-			if (!$pageTitle->isSpecial('Userlogin') && !$pageTitle->isSpecial('Userlogout')) {
-				#Add Messages
-				global $wgMessageCache;
-				require( dirname( __FILE__ ) . '/NetworkAuth.i18n.php' );
-				foreach( $messages as $key => $value ) {
-					  $wgMessageCache->addMessages( $messages[$key], $key );
-				}
-				
-				efNetworkAuth_Authenticate();
+			if ($pageTitle->isSpecial('Userlogin') || $pageTitle->isSpecial('Userlogout')) {
+				# bail!
+				return true;
 			}
 		}
+		
+		#Add Messages
+		global $wgMessageCache;
+		require( dirname( __FILE__ ) . '/NetworkAuth.i18n.php' );
+		foreach( $messages as $key => $value ) {
+			  $wgMessageCache->addMessages( $messages[$key], $key );
+		}
+		
+		efNetworkAuth_Authenticate();
+		
 		return true;
 }
 
