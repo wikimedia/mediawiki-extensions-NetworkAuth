@@ -92,7 +92,7 @@ function efNetworkAuth_checkForNetworkAuthUser() {
 				else
 					$patterns = explode("\n", $networkAuthUser['hostpattern']);
 			
-				$host = ar_gethostbyaddr( $ip );
+				$host = gethostbyaddr( $ip );
 				foreach ( $patterns as $pattern ) {
 					if ( preg_match( $pattern,  $host) ) {
 						global $wgNetworkAuthHost;
