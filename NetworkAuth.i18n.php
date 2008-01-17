@@ -28,3 +28,4 @@ $messages['nl'] = array(
 	'networkauth-name'     => 'NetwerkAanmelding',
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
 );
+
