@@ -29,8 +29,3 @@ $messages['nl'] = array(
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
 );
 
-/** Occitan (Occitan)
- * @author Cedric31
- */
-$messages['oc'] = array();
-
