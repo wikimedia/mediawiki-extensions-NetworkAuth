@@ -20,6 +20,7 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgExtensionFunctions[] = 'efNetworkAuth_Setup';
+$wgExtensionMessagesFiles['NetworkAuth'] = dirname(__FILE__) . '/' 'NetworkAuth.i18n.php';
 
 function efNetworkAuth_Setup() {
         global $wgRequest;
@@ -33,13 +34,6 @@ function efNetworkAuth_Setup() {
 				# bail!
 				return true;
 			}
-		}
-		
-		#Add Messages
-		global $wgMessageCache;
-		require( dirname( __FILE__ ) . '/NetworkAuth.i18n.php' );
-		foreach( $messages as $key => $value ) {
-			  $wgMessageCache->addMessages( $messages[$key], $key );
 		}
 		
 		efNetworkAuth_Authenticate();
@@ -160,6 +154,10 @@ function ar_gethostbyaddr($ip) {
 
 function efNetworkAuth_PersonalUrls($personal_urls, $title) {
 	global $wgNetworkAuthUser, $wgNetworkAuthHost;
+	
+	// Lazy load the i18n stuff here
+	wfLoadExtensionMessages('NetworkAuth');
+	
 	if (isset($personal_urls['anonuserpage'])) {
 		$personal_urls['anonuserpage']['text'] = 
 			wfMsg('networkauth-purltext', $wgNetworkAuthUser, $wgNetworkAuthHost);
