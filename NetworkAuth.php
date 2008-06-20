@@ -20,7 +20,7 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgExtensionFunctions[] = 'efNetworkAuth_Setup';
-$wgExtensionMessagesFiles['NetworkAuth'] = dirname(__FILE__) . '/' 'NetworkAuth.i18n.php';
+$wgExtensionMessagesFiles['NetworkAuth'] = dirname(__FILE__) . '/NetworkAuth.i18n.php';
 
 function efNetworkAuth_Setup() {
         global $wgRequest;
