@@ -12,11 +12,12 @@ if (!defined('MEDIAWIKI')) {
 $wgNetworkAuthUsers[] = array();
 
 $wgExtensionCredits['other'][] = array(
-	'name'        => 'NetworkAuth',
-	'version'     => '1.0',
-	'author'      => 'Tim Laqua',
-	'description' => 'Allows you to authenticate users based on network information',
-	'url'         => 'http://www.mediawiki.org/wiki/Extension:NetworkAuth',
+	'name'           => 'NetworkAuth',
+	'version'        => '1.0',
+	'author'         => 'Tim Laqua',
+	'description'    => 'Allows you to authenticate users based on network information',
+	'descriptionmsg' => 'networkauth-desc',
+	'url'            => 'http://www.mediawiki.org/wiki/Extension:NetworkAuth',
 );
 
 $wgExtensionFunctions[] = 'efNetworkAuth_Setup';

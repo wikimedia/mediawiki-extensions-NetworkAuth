@@ -9,7 +9,8 @@
 $messages = array();
 
 $messages['en'] = array(
-	'networkauth-name' => 'NetworkAuth',
+	'networkauth-desc'     => 'Allows you to authenticate users based on network information',
+	'networkauth-name'     => 'NetworkAuth',
 	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
