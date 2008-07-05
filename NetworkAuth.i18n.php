@@ -22,11 +22,26 @@ $messages['ar'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** French (Français)
+ * @author Grondin
+ */
+$messages['fr'] = array(
+	'networkauth-desc' => 'Vous permet d’authentifier les utilisateurs, basé sur des informations en réseau',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
 $messages['nl'] = array(
+	'networkauth-desc'     => 'Maakt het mogelijk om gebruikers te authenticeren op basis van netwerkinformatie',
 	'networkauth-name'     => 'NetwerkAanmelding',
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
+);
+
+/** Swedish (Svenska)
+ * @author Boivie
+ */
+$messages['sv'] = array(
+	'networkauth-desc' => 'Tillåter dig att godkänna användare baserat på nätverksinformation',
 );
 
