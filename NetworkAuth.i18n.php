@@ -45,6 +45,13 @@ $messages['nl'] = array(
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
 );
 
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'networkauth-desc' => 'Umožňuje overovanie používateľov na základe informácií o sieti',
+);
+
 /** Swedish (Svenska)
  * @author Boivie
  */
