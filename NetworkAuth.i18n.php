@@ -36,6 +36,13 @@ $messages['gl'] = array(
 	'networkauth-desc' => 'Permítelle autentificar usuarios baseándose na información da rede',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'networkauth-desc' => "Erlaabt iech et Benotzer op Basis vun Informatiounen aus Dem Reseau z'erkennen",
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
