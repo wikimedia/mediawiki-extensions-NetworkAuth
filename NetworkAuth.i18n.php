@@ -52,6 +52,13 @@ $messages['nl'] = array(
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['no'] = array(
+	'networkauth-desc' => 'Tillater godkjenning av brukere basert på nettverksinformasjon',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
