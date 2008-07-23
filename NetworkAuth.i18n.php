@@ -22,6 +22,13 @@ $messages['ar'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'networkauth-desc' => 'Rajtigas al vi aŭtentokontroli uzantojn laŭ interreta informo',
+);
+
 /** French (Français)
  * @author Grondin
  */
