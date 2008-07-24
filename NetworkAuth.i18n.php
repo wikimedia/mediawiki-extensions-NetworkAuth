@@ -18,6 +18,7 @@ $messages['en'] = array(
  * @author Meno25
  */
 $messages['ar'] = array(
+	'networkauth-desc'     => 'يسمح لك بتأكيد المستخدمين اعتمادا على معلومات الشبكة',
 	'networkauth-name'     => 'أوث الشبكة',
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
