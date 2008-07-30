@@ -44,6 +44,13 @@ $messages['gl'] = array(
 	'networkauth-desc' => 'Permítelle autentificar usuarios baseándose na información da rede',
 );
 
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'networkauth-desc' => 'Määd_et mööschlesch, Metmaacher övver Enfommazjohne uss_em Kompjuto_Näzwärrek enlogge ze lohße.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
