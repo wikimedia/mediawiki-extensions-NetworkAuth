@@ -44,6 +44,13 @@ $messages['gl'] = array(
 	'networkauth-desc' => 'Permítelle autentificar usuarios baseándose na información da rede',
 );
 
+/** Italian (Italiano)
+ * @author Darth Kule
+ */
+$messages['it'] = array(
+	'networkauth-desc' => 'Ti permette di autenticare utenti basato su informazioni del network',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
