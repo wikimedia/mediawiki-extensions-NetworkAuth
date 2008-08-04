@@ -81,6 +81,13 @@ $messages['no'] = array(
 	'networkauth-desc' => 'Tillater godkjenning av brukere basert på nettverksinformasjon',
 );
 
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'networkauth-desc' => "Vos permet d’autentificar los utilizaires, basat sus d'entresenhas en ret",
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
