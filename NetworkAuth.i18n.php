@@ -14,12 +14,19 @@ $messages['en'] = array(
 	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
+/** Message documentation (Message documentation)
+ * @author Purodha
+ */
+$messages['qqq'] = array(
+	'networkauth-desc' => 'Used in [[Special:Version]].',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
 $messages['ar'] = array(
-	'networkauth-desc'     => 'يسمح لك بتأكيد المستخدمين اعتمادا على معلومات الشبكة',
-	'networkauth-name'     => 'أوث الشبكة',
+	'networkauth-desc' => 'يسمح لك بتأكيد المستخدمين اعتمادا على معلومات الشبكة',
+	'networkauth-name' => 'أوث الشبكة',
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
@@ -69,8 +76,8 @@ $messages['lb'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'networkauth-desc'     => 'Maakt het mogelijk om gebruikers te authenticeren op basis van netwerkinformatie',
-	'networkauth-name'     => 'NetwerkAanmelding',
+	'networkauth-desc' => 'Maakt het mogelijk om gebruikers te authenticeren op basis van netwerkinformatie',
+	'networkauth-name' => 'NetwerkAanmelding',
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
 );
 
