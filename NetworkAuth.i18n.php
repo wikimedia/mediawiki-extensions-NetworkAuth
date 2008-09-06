@@ -30,6 +30,15 @@ $messages['ar'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'networkauth-desc' => 'يسمح لك بتأكيد المستخدمين اعتمادا على معلومات الشبكة',
+	'networkauth-name' => 'أوث الشبكة',
+	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
