@@ -60,6 +60,13 @@ $messages['gl'] = array(
 	'networkauth-desc' => 'Permítelle autentificar usuarios baseándose na información da rede',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'networkauth-desc' => 'Dowola ći wužiwarjow na zakładźe syćowych informacijow awtentifikować',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
