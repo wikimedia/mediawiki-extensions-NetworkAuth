@@ -39,6 +39,13 @@ $messages['arz'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'networkauth-desc' => 'Dowólujo awtentifcěrowanje wužywarjow na zakłaźe seśowych informacijow',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
