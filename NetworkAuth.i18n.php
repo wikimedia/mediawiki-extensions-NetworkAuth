@@ -53,6 +53,13 @@ $messages['eo'] = array(
 	'networkauth-desc' => 'Rajtigas al vi aŭtentokontroli uzantojn laŭ interreta informo',
 );
 
+/** Spanish (Español)
+ * @author Sanbec
+ */
+$messages['es'] = array(
+	'networkauth-desc' => 'Permite autenticar usuarios basándose en información de red',
+);
+
 /** French (Français)
  * @author Grondin
  */
