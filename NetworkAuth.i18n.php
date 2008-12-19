@@ -97,6 +97,13 @@ $messages['it'] = array(
 	'networkauth-desc' => 'Ti permette di autenticare utenti basato su informazioni del network',
 );
 
+/** Japanese (日本語)
+ * @author Hosiryuhosi
+ */
+$messages['ja'] = array(
+	'networkauth-desc' => 'ネットワーク情報に基づくユーザー認証を可能にします',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
@@ -132,6 +139,13 @@ $messages['no'] = array(
  */
 $messages['oc'] = array(
 	'networkauth-desc' => "Vos permet d’autentificar los utilizaires, basat sus d'entresenhas en ret",
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'networkauth-desc' => "Permettete de autenticà l'utinde basannete sus a le 'mbormaziune de rete",
 );
 
 /** Slovak (Slovenčina)
