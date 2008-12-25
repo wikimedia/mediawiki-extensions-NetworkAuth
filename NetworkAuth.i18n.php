@@ -74,6 +74,13 @@ $messages['gl'] = array(
 	'networkauth-desc' => 'Permítelle autentificar usuarios baseándose na información da rede',
 );
 
+/** Hebrew (עברית)
+ * @author YaronSh
+ */
+$messages['he'] = array(
+	'networkauth-desc' => 'מאפשר לכם לאמת משתמשים בהתבסס על נתוני הרשת שלהם',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -160,5 +167,12 @@ $messages['sk'] = array(
  */
 $messages['sv'] = array(
 	'networkauth-desc' => 'Tillåter dig att godkänna användare baserat på nätverksinformation',
+);
+
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'networkauth-desc' => 'Te parmete de autenticar utenti in base a le informassion de la rete',
 );
 
