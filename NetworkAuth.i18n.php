@@ -39,6 +39,13 @@ $messages['arz'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** German (Deutsch)
+ * @author Melancholie
+ */
+$messages['de'] = array(
+	'networkauth-desc' => 'Erlaubt es, Benutzer gem. von Netzwerk-Informationen zu bestätigen.',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -75,10 +82,11 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Rotemliss
  * @author YaronSh
  */
 $messages['he'] = array(
-	'networkauth-desc' => 'מאפשר לכם לאמת משתמשים בהתבסס על נתוני הרשת שלהם',
+	'networkauth-desc' => 'אפשרות להזדהות של משתמשים בהתבסס על נתוני הרשת שלהם',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -132,6 +140,13 @@ $messages['nl'] = array(
 	'networkauth-desc' => 'Maakt het mogelijk om gebruikers te authenticeren op basis van netwerkinformatie',
 	'networkauth-name' => 'NetwerkAanmelding',
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
+ */
+$messages['nn'] = array(
+	'networkauth-desc' => 'Lèt deg stadfesta brukarar gjennom nettverksinformasjon',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
