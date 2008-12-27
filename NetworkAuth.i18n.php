@@ -67,6 +67,13 @@ $messages['es'] = array(
 	'networkauth-desc' => 'Permite autenticar usuarios basándose en información de red',
 );
 
+/** Finnish (Suomi)
+ * @author Mobe
+ */
+$messages['fi'] = array(
+	'networkauth-desc' => 'Voit tunnistaa käyttäjät verkkotietojen perusteella.',
+);
+
 /** French (Français)
  * @author Grondin
  */
