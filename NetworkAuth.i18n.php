@@ -69,9 +69,10 @@ $messages['es'] = array(
 
 /** Finnish (Suomi)
  * @author Mobe
+ * @author Nike
  */
 $messages['fi'] = array(
-	'networkauth-desc' => 'Voit tunnistaa käyttäjät verkkotietojen perusteella.',
+	'networkauth-desc' => 'Mahdollistaa käyttäjien sisäänkirjautumisen verkkotietojen perusteella.',
 );
 
 /** French (Français)
