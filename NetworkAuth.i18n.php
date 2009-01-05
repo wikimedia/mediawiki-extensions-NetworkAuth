@@ -31,10 +31,11 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Ghaly
  * @author Meno25
  */
 $messages['arz'] = array(
-	'networkauth-desc' => 'يسمح لك بتأكيد المستخدمين اعتمادا على معلومات الشبكة',
+	'networkauth-desc' => 'يسمح لك بتأكيد اليوزرز اعتمادا على معلومات الشبكة',
 	'networkauth-name' => 'أوث الشبكة',
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
