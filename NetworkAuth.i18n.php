@@ -172,6 +172,13 @@ $messages['oc'] = array(
 	'networkauth-desc' => "Vos permet d’autentificar los utilizaires, basat sus d'entresenhas en ret",
 );
 
+/** Portuguese (Português)
+ * @author Malafaya
+ */
+$messages['pt'] = array(
+	'networkauth-desc' => 'Permite-lhe autenticar utilizadores com base em informação de rede',
+);
+
 /** Tarandíne (Tarandíne)
  * @author Joetaras
  */
