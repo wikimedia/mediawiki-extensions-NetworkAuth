@@ -142,6 +142,13 @@ $messages['lb'] = array(
 	'networkauth-desc' => "Erlaabt iech et Benotzer op Basis vun Informatiounen aus Dem Reseau z'erkennen",
 );
 
+/** Low German (Plattdüütsch)
+ * @author Slomox
+ */
+$messages['nds'] = array(
+	'networkauth-desc' => 'Verlöövt dat Bestätigen vun Brukers över Nettwark-Infos',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
