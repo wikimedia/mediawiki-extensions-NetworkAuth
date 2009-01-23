@@ -200,6 +200,13 @@ $messages['sk'] = array(
 	'networkauth-desc' => 'Umožňuje overovanie používateľov na základe informácií o sieti',
 );
 
+/** Albanian (Shqip)
+ * @author Puntori
+ */
+$messages['sq'] = array(
+	'networkauth-desc' => 'Lejon gjetjen e vendit të përdoruesit bazuar në të dhënat e rrjetit',
+);
+
 /** Swedish (Svenska)
  * @author Boivie
  */
