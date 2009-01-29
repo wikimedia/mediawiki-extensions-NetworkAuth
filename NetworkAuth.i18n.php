@@ -68,6 +68,13 @@ $messages['es'] = array(
 	'networkauth-desc' => 'Permite autenticar usuarios basándose en información de red',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'networkauth-desc' => 'Lankideak egiaztatzea ahalbidetzen du informazio-sarean oinarrituta',
+);
+
 /** Finnish (Suomi)
  * @author Mobe
  * @author Nike
@@ -212,6 +219,13 @@ $messages['sq'] = array(
  */
 $messages['sv'] = array(
 	'networkauth-desc' => 'Tillåter dig att godkänna användare baserat på nätverksinformation',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'networkauth-desc' => "Nagpapahintulot sa iyong mapatotohanan ang mga tagagamit batay sa kabatiran ng kalambatan (''network'')",
 );
 
 /** Vèneto (Vèneto)
