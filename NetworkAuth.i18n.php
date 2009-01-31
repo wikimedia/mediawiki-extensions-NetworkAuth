@@ -97,6 +97,13 @@ $messages['gl'] = array(
 	'networkauth-desc' => 'Permítelle autentificar usuarios baseándose na información da rede',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'networkauth-desc' => 'Erlaubt s, Benutzer uf dr Grundlag vu Netzwärch-Informatione z bstätige.',
+);
+
 /** Hebrew (עברית)
  * @author Rotemliss
  * @author YaronSh
