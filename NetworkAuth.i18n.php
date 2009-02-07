@@ -200,6 +200,13 @@ $messages['pt'] = array(
 	'networkauth-desc' => 'Permite-lhe autenticar utilizadores com base em informação de rede',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
+ */
+$messages['pt-br'] = array(
+	'networkauth-desc' => 'Permite-lhe autenticar utilizadores com base em informações de rede',
+);
+
 /** Tarandíne (Tarandíne)
  * @author Joetaras
  */
