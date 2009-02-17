@@ -40,6 +40,13 @@ $messages['arz'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'networkauth-desc' => 'Omogućava Vam da potvrdite korisnike na osnovu mrežnih podataka',
+);
+
 /** German (Deutsch)
  * @author Melancholie
  */
@@ -247,5 +254,12 @@ $messages['tl'] = array(
  */
 $messages['vec'] = array(
 	'networkauth-desc' => 'Te parmete de autenticar utenti in base a le informassion de la rete',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Vinhtantran
+ */
+$messages['vi'] = array(
+	'networkauth-desc' => 'Cho phép bạn xác thực thành viên dựa trên thông tin mạng',
 );
 
