@@ -40,6 +40,13 @@ $messages['arz'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'networkauth-desc' => 'Дазваляе Вам аўтэнтыфікаваць удзельнікаў з дапамогай інфармацыі з сеткі',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
