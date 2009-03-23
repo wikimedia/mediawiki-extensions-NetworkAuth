@@ -150,10 +150,11 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fievarsty
  * @author Hosiryuhosi
  */
 $messages['ja'] = array(
-	'networkauth-desc' => 'ネットワーク情報に基づくユーザー認証を可能にします',
+	'networkauth-desc' => 'ネットワーク情報に基づくユーザー認証を可能にする',
 );
 
 /** Ripoarisch (Ripoarisch)
