@@ -208,6 +208,13 @@ $messages['oc'] = array(
 	'networkauth-desc' => "Vos permet d’autentificar los utilizaires, basat sus d'entresenhas en ret",
 );
 
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'networkauth-desc' => 'Pozwala na uwierzytelnianie użytkowników w oparciu o informacje sieciowe',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
