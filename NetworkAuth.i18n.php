@@ -236,6 +236,13 @@ $messages['roa-tara'] = array(
 	'networkauth-desc' => "Permettete de autenticà l'utinde basannete sus a le 'mbormaziune de rete",
 );
 
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'networkauth-desc' => 'Позволяет аутентифицировать участников, основываясь на сетевой информации',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
