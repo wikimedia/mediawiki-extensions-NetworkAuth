@@ -142,6 +142,13 @@ $messages['ia'] = array(
 	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
+ */
+$messages['id'] = array(
+	'networkauth-desc' => 'Mengijinkan Anda untuk melakukan otentifikasi pengguna berdasarkan informasi jaringan',
+);
+
 /** Italian (Italiano)
  * @author Darth Kule
  */
