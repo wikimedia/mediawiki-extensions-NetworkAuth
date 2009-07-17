@@ -222,6 +222,13 @@ $messages['pl'] = array(
 	'networkauth-desc' => 'Pozwala na uwierzytelnianie użytkowników w oparciu o informacje sieciowe',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'networkauth-desc' => "At përmëtt d'autentiché dj'utent basà an sle anformassion ëd la rèj",
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
