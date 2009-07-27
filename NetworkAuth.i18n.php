@@ -126,6 +126,13 @@ $messages['he'] = array(
 	'networkauth-desc' => 'אפשרות להזדהות של משתמשים בהתבסס על נתוני הרשת שלהם',
 );
 
+/** Hiligaynon (Ilonggo)
+ * @author Tagimata
+ */
+$messages['hil'] = array(
+	'networkauth-desc' => 'Nagapasugot sa imo sa pagpahimatuod sang mga user base sa impormasyon sang mga network',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
