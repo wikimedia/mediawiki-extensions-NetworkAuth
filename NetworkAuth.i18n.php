@@ -285,6 +285,13 @@ $messages['sr-ec'] = array(
 	'networkauth-desc' => 'Омогућава ауторизацију корисника према информацијама у мрежи',
 );
 
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'networkauth-desc' => 'Omogućava autorizaciju korisnika prema informacijama u mreži',
+);
+
 /** Swedish (Svenska)
  * @author Boivie
  */
