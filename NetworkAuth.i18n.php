@@ -185,6 +185,13 @@ $messages['lb'] = array(
 	'networkauth-desc' => "Erlaabt iech et Benotzer op Basis vun Informatiounen aus Dem Reseau z'erkennen",
 );
 
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'networkauth-desc' => 'Овозможува да потврдувате корисници врз основа на мрежните информации',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
