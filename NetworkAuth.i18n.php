@@ -47,6 +47,13 @@ $messages['be-tarask'] = array(
 	'networkauth-desc' => 'Дазваляе Вам аўтэнтыфікаваць удзельнікаў з дапамогай інфармацыі з сеткі',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'networkauth-desc' => "Talvezout a ra da wiriekaat an implijerien oc'h en em ziazezañ war titouroù zo er rouedad",
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
