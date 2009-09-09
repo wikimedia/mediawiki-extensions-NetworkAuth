@@ -147,6 +147,13 @@ $messages['hsb'] = array(
 	'networkauth-desc' => 'Dowola ći wužiwarjow na zakładźe syćowych informacijow awtentifikować',
 );
 
+/** Hungarian (Magyar)
+ * @author Glanthor Reviol
+ */
+$messages['hu'] = array(
+	'networkauth-desc' => 'Lehetővé teszi a szerkesztők hálózati információk alapján történő hitelesítését',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
