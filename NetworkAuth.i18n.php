@@ -75,6 +75,13 @@ $messages['dsb'] = array(
 	'networkauth-desc' => 'Dowólujo awtentifcěrowanje wužywarjow na zakłaźe seśowych informacijow',
 );
 
+/** Greek (Ελληνικά)
+ * @author Omnipaedista
+ */
+$messages['el'] = array(
+	'networkauth-desc' => 'Σας επιτρέπει την πιστοποίηση χρηστών βάσει πληροφοριών δικτύου',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
