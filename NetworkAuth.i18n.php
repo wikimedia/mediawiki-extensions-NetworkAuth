@@ -334,6 +334,13 @@ $messages['tl'] = array(
 	'networkauth-desc' => "Nagpapahintulot sa iyong mapatotohanan ang mga tagagamit batay sa kabatiran ng kalambatan (''network'')",
 );
 
+/** Turkish (Türkçe)
+ * @author Vito Genovese
+ */
+$messages['tr'] = array(
+	'networkauth-desc' => 'Ağ bilgilerini temel alarak kullanıcıların kimliklerini doğrulamanızı sağlar',
+);
+
 /** Vèneto (Vèneto)
  * @author Candalua
  */
