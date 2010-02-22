@@ -16,7 +16,6 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'NetworkAuth',
 	'version'        => '1.0',
 	'author'         => 'Tim Laqua',
-	'description'    => 'Allows you to authenticate users based on network information',
 	'descriptionmsg' => 'networkauth-desc',
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:NetworkAuth',
 );
