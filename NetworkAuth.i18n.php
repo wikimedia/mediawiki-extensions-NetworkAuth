@@ -320,6 +320,13 @@ $messages['sr-el'] = array(
 	'networkauth-desc' => 'Omogućava autorizaciju korisnika prema informacijama u mreži',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Kandar
+ */
+$messages['su'] = array(
+	'networkauth-desc' => 'Ngawenangkeun anjeun pikeun ngoténtikasi pamaké dumasar kana émbaran jaringan',
+);
+
 /** Swedish (Svenska)
  * @author Boivie
  */
