@@ -172,9 +172,10 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author IvanLanin
  */
 $messages['id'] = array(
-	'networkauth-desc' => 'Mengijinkan Anda untuk melakukan otentifikasi pengguna berdasarkan informasi jaringan',
+	'networkauth-desc' => 'Memungkinkan Anda untuk melakukan otentifikasi pengguna berdasarkan informasi jaringan',
 );
 
 /** Italian (Italiano)
