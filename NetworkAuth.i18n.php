@@ -193,7 +193,7 @@ $messages['ja'] = array(
 	'networkauth-desc' => 'ネットワーク情報に基づくユーザー認証を可能にする',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
