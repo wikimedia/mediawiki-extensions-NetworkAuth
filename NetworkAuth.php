@@ -156,9 +156,6 @@ function ar_gethostbyaddr($ip) {
 function efNetworkAuth_PersonalUrls($personal_urls, $title) {
 	global $wgNetworkAuthUser, $wgNetworkAuthHost;
 	
-	// Lazy load the i18n stuff here
-	wfLoadExtensionMessages('NetworkAuth');
-	
 	if (isset($personal_urls['anonuserpage'])) {
 		$personal_urls['anonuserpage']['text'] = 
 			wfMsg('networkauth-purltext', $wgNetworkAuthUser, $wgNetworkAuthHost);
