@@ -350,6 +350,13 @@ $messages['tr'] = array(
 	'networkauth-desc' => 'Ağ bilgilerini temel alarak kullanıcıların kimliklerini doğrulamanızı sağlar',
 );
 
+/** Ukrainian (Українська)
+ * @author Ytsukeng Fyvaprol
+ */
+$messages['uk'] = array(
+	'networkauth-desc' => 'Дозволяє автентифікувати учасників на основі інформації мережі',
+);
+
 /** Vèneto (Vèneto)
  * @author Candalua
  */
