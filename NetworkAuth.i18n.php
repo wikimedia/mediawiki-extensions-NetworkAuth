@@ -212,7 +212,9 @@ $messages['lb'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'networkauth-desc' => 'Овозможува да потврдувате корисници врз основа на мрежните информации',
+	'networkauth-desc' => 'Овозможува да заверка на корисници врз основа на мрежните информации',
+	'networkauth-name' => 'МрежнаЗаверка',
+	'networkauth-purltext' => 'МрежнаЗаверка [$1@$2]',
 );
 
 /** Low German (Plattdüütsch)
