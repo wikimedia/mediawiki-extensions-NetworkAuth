@@ -217,6 +217,13 @@ $messages['mk'] = array(
 	'networkauth-purltext' => 'МрежнаЗаверка [$1@$2]',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'networkauth-desc' => 'Membolehkan pengesahan pengguna berasaskan maklumat rangkaian',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
