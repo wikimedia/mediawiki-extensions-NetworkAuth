@@ -317,11 +317,14 @@ $messages['sq'] = array(
 	'networkauth-desc' => 'Lejon gjetjen e vendit të përdoruesit bazuar në të dhënat e rrjetit',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'networkauth-desc' => 'Омогућава ауторизацију корисника према информацијама у мрежи',
+	'networkauth-name' => 'NetworkAuth',
+	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
