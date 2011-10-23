@@ -41,6 +41,13 @@ $messages['arz'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'networkauth-desc' => 'Permite autenticar usuarios basándose na información de la rede',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
