@@ -334,7 +334,7 @@ $messages['sr-ec'] = array(
 	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
