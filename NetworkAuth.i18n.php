@@ -17,9 +17,12 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'networkauth-desc' => 'Used in [[Special:Version]].',
+	'networkauth-name' => '{{optional}}',
+	'networkauth-purltext' => '{{optional}}',
 );
 
 /** Arabic (العربية)
