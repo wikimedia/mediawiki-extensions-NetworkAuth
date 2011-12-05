@@ -119,7 +119,7 @@ function efNetworkAuth_Authenticate() {
 			$u = User::newFromName( $wgNetworkAuthUser );
 		}
 
-		if( is_null( $u ) && !User::isUsableName( $u->getName() ) ) {
+		if( !is_null( $u ) && !User::isUsableName( $u->getName() ) ) {
 			if ( !$u->isAnon() ) {
 				# Finally.
 				$u->load();
