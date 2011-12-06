@@ -119,20 +119,18 @@ function efNetworkAuth_Authenticate() {
 			$u = User::newFromName( $wgNetworkAuthUser );
 		}
 
-		if( !is_null( $u ) && !User::isUsableName( $u->getName() ) ) {
-			if ( !$u->isAnon() ) {
-				# Finally.
-				$u->load();
-				$wgUser = $u;
+		if( !is_null( $u ) && User::isUsableName( $u->getName() ) && !$u->isAnon() ) {
+			# Finally.
+			$u->load();
+			$wgUser = $u;
 
-				# Since we're not really logged in, just pretending - force a logout
-				# before the page gets displayed.
-				global $wgHooks;
-				$wgHooks['BeforePageDisplay'][] = 'efNetworkAuth_ForceLogout';
+			# Since we're not really logged in, just pretending - force a logout
+			# before the page gets displayed.
+			global $wgHooks;
+			$wgHooks['BeforePageDisplay'][] = 'efNetworkAuth_ForceLogout';
 
-				# Add a display message to the personal URLs
-				$wgHooks['PersonalUrls'][] = 'efNetworkAuth_PersonalUrls';
-			}
+			# Add a display message to the personal URLs
+			$wgHooks['PersonalUrls'][] = 'efNetworkAuth_PersonalUrls';
 		}
 	}
 	return true;
