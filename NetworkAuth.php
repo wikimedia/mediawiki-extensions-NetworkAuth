@@ -18,7 +18,7 @@ $wgExtensionCredits['other'][] = array(
 	'version'        => '1.0',
 	'author'         => 'Tim Laqua',
 	'descriptionmsg' => 'networkauth-desc',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:NetworkAuth',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:NetworkAuth',
 );
 
 $wgExtensionFunctions[] = 'efNetworkAuth_Setup';
