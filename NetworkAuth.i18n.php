@@ -342,6 +342,8 @@ $messages['sr-ec'] = array(
  */
 $messages['sr-el'] = array(
 	'networkauth-desc' => 'Omogućava autorizaciju korisnika prema informacijama u mreži',
+	'networkauth-name' => 'NetworkAuth',
+	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
 /** Sundanese (Basa Sunda)
