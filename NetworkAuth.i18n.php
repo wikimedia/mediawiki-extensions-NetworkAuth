@@ -260,7 +260,7 @@ $messages['nn'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'networkauth-desc' => 'Tillater godkjenning av brukere basert på nettverksinformasjon',
 );
 
