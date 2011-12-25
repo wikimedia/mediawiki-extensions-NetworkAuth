@@ -234,6 +234,13 @@ $messages['ms'] = array(
 	'networkauth-desc' => 'Membolehkan pengesahan pengguna berasaskan maklumat rangkaian',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'networkauth-desc' => 'Tillater godkjenning av brukere basert på nettverksinformasjon',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -255,13 +262,6 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'networkauth-desc' => 'Lèt deg stadfesta brukarar gjennom nettverksinformasjon',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'networkauth-desc' => 'Tillater godkjenning av brukere basert på nettverksinformasjon',
 );
 
 /** Occitan (Occitan)
