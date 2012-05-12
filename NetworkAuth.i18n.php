@@ -259,6 +259,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'networkauth-desc' => 'Lèt deg stadfesta brukarar gjennom nettverksinformasjon',
