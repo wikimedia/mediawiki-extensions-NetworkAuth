@@ -204,6 +204,13 @@ $messages['ja'] = array(
 	'networkauth-desc' => 'ネットワーク情報に基づくユーザー認証を可能にする',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'networkauth-desc' => '네트워크 정보를 기반으로 한 사용자를 인증할 수 있도록 허용',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
