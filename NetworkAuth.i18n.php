@@ -44,7 +44,7 @@ $messages['arz'] = array(
 	'networkauth-purltext' => 'أوث الشبكة [$1@$2]',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -58,14 +58,14 @@ $messages['be-tarask'] = array(
 	'networkauth-desc' => 'Дазваляе Вам аўтэнтыфікаваць удзельнікаў з дапамогай інфармацыі з сеткі',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'networkauth-desc' => "Talvezout a ra da wiriekaat an implijerien oc'h en em ziazezañ war titouroù zo er rouedad",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -100,21 +100,21 @@ $messages['eo'] = array(
 	'networkauth-desc' => 'Rajtigas al vi aŭtentokontroli uzantojn laŭ interreta informo',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
 	'networkauth-desc' => 'Permite autenticar usuarios basándose en información de red',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
 	'networkauth-desc' => 'Lankideak egiaztatzea ahalbidetzen du informazio-sarean oinarrituta',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Mobe
  * @author Nike
  */
@@ -122,7 +122,7 @@ $messages['fi'] = array(
 	'networkauth-desc' => 'Mahdollistaa käyttäjien sisäänkirjautumisen verkkotietojen perusteella.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  */
 $messages['fr'] = array(
@@ -165,14 +165,14 @@ $messages['hsb'] = array(
 	'networkauth-desc' => 'Dowola ći wužiwarjow na zakładźe syćowych informacijow awtentifikować',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
 	'networkauth-desc' => 'Lehetővé teszi a szerkesztők hálózati információk alapján történő hitelesítését',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -189,7 +189,7 @@ $messages['id'] = array(
 	'networkauth-desc' => 'Memungkinkan Anda untuk melakukan otentifikasi pengguna berdasarkan informasi jaringan',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -226,7 +226,7 @@ $messages['lb'] = array(
 	'networkauth-desc' => "Erlaabt iech et Benotzer op Basis vun Informatiounen aus Dem Reseau z'erkennen",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -265,7 +265,7 @@ $messages['nl'] = array(
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -273,14 +273,14 @@ $messages['nn'] = array(
 	'networkauth-desc' => 'Lèt deg stadfesta brukarar gjennom nettverksinformasjon',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'networkauth-desc' => "Vos permet d’autentificar los utilizaires, basat sus d'entresenhas en ret",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -294,49 +294,49 @@ $messages['pms'] = array(
 	'networkauth-desc' => "At përmëtt d'autentiché dj'utent basà an sle anformassion ëd la rèj",
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Malafaya
  */
 $messages['pt'] = array(
 	'networkauth-desc' => 'Permite-lhe autenticar utilizadores com base em informação de rede',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'networkauth-desc' => 'Permite-lhe autenticar utilizadores com base em informações de rede',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'networkauth-desc' => "Permettete de autenticà l'utinde basannete sus a le 'mbormaziune de rete",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'networkauth-desc' => 'Позволяет аутентифицировать участников, основываясь на сетевой информации',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'networkauth-desc' => 'Umožňuje overovanie používateľov na základe informácií o sieti',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Puntori
  */
 $messages['sq'] = array(
 	'networkauth-desc' => 'Lejon gjetjen e vendit të përdoruesit bazuar në të dhënat e rrjetit',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -346,7 +346,7 @@ $messages['sr-ec'] = array(
 	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -362,7 +362,7 @@ $messages['su'] = array(
 	'networkauth-desc' => 'Ngawenangkeun anjeun pikeun ngoténtikasi pamaké dumasar kana émbaran jaringan',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  */
 $messages['sv'] = array(
@@ -383,14 +383,14 @@ $messages['tr'] = array(
 	'networkauth-desc' => 'Ağ bilgilerini temel alarak kullanıcıların kimliklerini doğrulamanızı sağlar',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Ytsukeng Fyvaprol
  */
 $messages['uk'] = array(
 	'networkauth-desc' => 'Дозволяє автентифікувати учасників на основі інформації мережі',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
