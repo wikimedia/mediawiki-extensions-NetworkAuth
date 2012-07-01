@@ -51,7 +51,7 @@ $messages['ast'] = array(
 	'networkauth-desc' => 'Permite autenticar usuarios basándose na información de la rede',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -79,7 +79,7 @@ $messages['de'] = array(
 	'networkauth-desc' => 'Erlaubt es, Benutzer gem. von Netzwerk-Informationen zu bestätigen.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -129,7 +129,7 @@ $messages['fr'] = array(
 	'networkauth-desc' => 'Vous permet d’authentifier les utilisateurs, basé sur des informations en réseau',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -158,7 +158,7 @@ $messages['hil'] = array(
 	'networkauth-desc' => 'Nagapasugot sa imo sa pagpahimatuod sang mga user base sa impormasyon sang mga network',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
