@@ -242,9 +242,7 @@ $messages['ms'] = array(
 	'networkauth-desc' => 'Membolehkan pengesahan pengguna berasaskan maklumat rangkaian',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'networkauth-desc' => 'Tillater godkjenning av brukere basert på nettverksinformasjon',
 );
