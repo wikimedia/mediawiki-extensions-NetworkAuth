@@ -372,6 +372,8 @@ $messages['sv'] = array(
  */
 $messages['tl'] = array(
 	'networkauth-desc' => "Nagpapahintulot sa iyong mapatotohanan ang mga tagagamit batay sa kabatiran ng kalambatan (''network'')",
+	'networkauth-name' => 'May-akda ng Lambat-Gawaan',
+	'networkauth-purltext' => 'May-akda ng Lambat-Gawaan [$1@$2]',
 );
 
 /** Turkish (Türkçe)
