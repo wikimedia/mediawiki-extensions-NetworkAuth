@@ -51,7 +51,7 @@ $messages['ast'] = array(
 	'networkauth-desc' => 'Permite autenticar usuarios basándose na información de la rede',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -242,7 +242,7 @@ $messages['ms'] = array(
 	'networkauth-desc' => 'Membolehkan pengesahan pengguna berasaskan maklumat rangkaian',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'networkauth-desc' => 'Tillater godkjenning av brukere basert på nettverksinformasjon',
 );
@@ -263,7 +263,7 @@ $messages['nl'] = array(
 	'networkauth-purltext' => 'NetwerkAanmelding [$1@$2]',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -334,7 +334,7 @@ $messages['sq'] = array(
 	'networkauth-desc' => 'Lejon gjetjen e vendit të përdoruesit bazuar në të dhënat e rrjetit',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -344,7 +344,7 @@ $messages['sr-ec'] = array(
 	'networkauth-purltext' => 'NetworkAuth [$1@$2]',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
