@@ -56,10 +56,12 @@ function efNetworkAuth_checkForNetworkAuthUser() {
 				else
 					$ranges = explode("\n", $networkAuthUser['iprange']);
 
-				$hex = IP::toHex( $ip );
+				$hex = hexdec(IP::toHex( $ip ));
 				foreach ( $ranges as $range ) {
 					$parsedRange = IP::parseRange( $range );
-					if ( $hex >= $parsedRange[0] && $hex <= $parsedRange[1] ) {
+                                        $lower = hexdec($parsedRange[0]);
+                                        $upper = hexdec($parsedRange[1]);
+					if ( $hex >= $lower && $hex <= $upper ) {
 						global $wgNetworkAuthHost;
 						$wgNetworkAuthHost = $ip;
 						return $networkAuthUser['user'];
