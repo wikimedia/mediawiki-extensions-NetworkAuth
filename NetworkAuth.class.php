@@ -108,7 +108,12 @@ class NetworkAuth {
       $mid = User::idFromName( $username );
       $user->setId($mid);
       $user->loadFromId();
-      // do *not* set cookie and save settings
+      // set cookie and save settings only when this is not a
+      // networkauth user
+      if (! in_array($username, $this->networkauthusers)) {
+        $user->saveSettings();
+        $user->setCookies();
+      }
       wfRunHooks('UserLoginComplete', array(&$user, ""));
     }
 
@@ -121,14 +126,17 @@ class NetworkAuth {
   function onPersonalUrls(&$personal_urls, &$title) {
     global $wgUseCombinedLoginLink, $wgSecureLogin;
 
+    // fetch context
     $context = RequestContext::getMain();
-    $request = $context->getRequest();
 
+    // generate special personal urls only when the user is a special
+    // networkauth user
     $name = $context->getUser()->getName();
     if (! in_array($name, $this->networkauthusers)) {
       return true;
     }
-    
+
+    $request = $context->getRequest();
     $ip = $context->getRequest()->getIP();
   
     wfDebug("NetworkAuth: modifying personal URLs for NetworkAuth special user $name from $ip.\n");
