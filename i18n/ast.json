@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "networkauth-desc": "Permite autenticar usuarios basándose na información de la rede"
+}

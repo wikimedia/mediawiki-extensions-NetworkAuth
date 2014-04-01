@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Sanbec"
+        ]
+    },
+    "networkauth-desc": "Permite autenticar usuarios basándose en información de red"
+}

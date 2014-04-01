@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ghaly",
+            "Meno25"
+        ]
+    },
+    "networkauth-desc": "يسمح لك بتأكيد اليوزرز اعتمادا على معلومات الشبكة",
+    "networkauth-name": "أوث الشبكة",
+    "networkauth-purltext": "أوث الشبكة [$1@$2]"
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "networkauth-desc": "Maakt het mogelijk om gebruikers te authenticeren op basis van netwerkinformatie",
+    "networkauth-name": "NetwerkAanmelding",
+    "networkauth-purltext": "NetwerkAanmelding [$1@$2]"
+}

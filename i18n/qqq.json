@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Purodha",
+            "Umherirrender"
+        ]
+    },
+    "networkauth-desc": "Used in [[Special:Version]].",
+    "networkauth-name": "{{optional}}",
+    "networkauth-purltext": "{{optional}}"
+}

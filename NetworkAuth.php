@@ -21,11 +21,11 @@ http://www.gnu.org/copyleft/gpl.html
 
 if ( !defined( 'MEDIAWIKI' ) ) die();
 
-$wgExtensionCredits['other'][] = 
+$wgExtensionCredits['other'][] =
   array(
         'path'           => __FILE__,
 	'name'           => 'NetworkAuth',
-	'version'        => '2.0',
+	'version'        => '2.1.0',
 	'author'         => 'Tim Laqua, Olaf Lenz',
 	'descriptionmsg' => 'networkauth-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:NetworkAuth',
@@ -33,33 +33,34 @@ $wgExtensionCredits['other'][] =
 
 $dir = dirname(__FILE__);
 $dir .= '/';
-                         
+
 // directly load ExternBib.class.php, as an instance will be created
 // anyway
 require_once($dir . 'NetworkAuth.class.php');
-  
+
+$wgMessagesDirs['NetworkAuth'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['NetworkAuth'] = $dir . 'NetworkAuth.i18n.php';
 $wgExtensionFunctions[] = 'efNetworkAuthSetup';
 $wgExtensionMessagesFiles['NetworkAuth'] = $dir . '/NetworkAuth.i18n.php';
 
 // defaults
-if (!isset($wgNetworkAuthUsers))                                        
+if (!isset($wgNetworkAuthUsers))
   $wgNetworkAuthUsers = array();
 if (!isset($wgNetworkAuthSpecialUsers))
   $wgNetworkAuthSpecialUsers = array();
 
 function efNetworkAuthSetup() {
-  global 
+  global
     $wgHooks,
     $wgNetworkAuth,
-    $wgNetworkAuthUsers, 
+    $wgNetworkAuthUsers,
     $wgNetworkAuthSpecialUsers;
 
   $wgNetworkAuth = new NetworkAuth($wgNetworkAuthUsers, $wgNetworkAuthSpecialUsers);
 
-  $wgHooks['UserLoadAfterLoadFromSession'][] = 
+  $wgHooks['UserLoadAfterLoadFromSession'][] =
     array($wgNetworkAuth, 'onUserLoadAfterLoadFromSession');
-  $wgHooks['PersonalUrls'][] = 
+  $wgHooks['PersonalUrls'][] =
     array($wgNetworkAuth, 'onPersonalUrls');
 
   return true;

@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Vito Genovese"
+        ]
+    },
+    "networkauth-desc": "Ağ bilgilerini temel alarak kullanıcıların kimliklerini doğrulamanızı sağlar"
+}

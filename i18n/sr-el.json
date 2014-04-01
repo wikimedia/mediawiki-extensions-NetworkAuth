@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michaello"
+        ]
+    },
+    "networkauth-desc": "Omogućava autorizaciju korisnika prema informacijama u mreži",
+    "networkauth-name": "NetworkAuth",
+    "networkauth-purltext": "NetworkAuth [$1@$2]"
+}

@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "networkauth-desc": "Permítelle autentificar usuarios baseándose na información da rede"
+}
