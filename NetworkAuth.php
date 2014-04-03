@@ -25,23 +25,19 @@ $wgExtensionCredits['other'][] =
   array(
         'path'           => __FILE__,
 	'name'           => 'NetworkAuth',
-	'version'        => '2.1.0',
+	'version'        => '2.1.1',
 	'author'         => 'Tim Laqua, Olaf Lenz',
 	'descriptionmsg' => 'networkauth-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:NetworkAuth',
         );
 
-$dir = dirname(__FILE__);
-$dir .= '/';
-
 // directly load ExternBib.class.php, as an instance will be created
 // anyway
-require_once($dir . 'NetworkAuth.class.php');
+require_once __DIR__ . '/NetworkAuth.class.php';
 
 $wgMessagesDirs['NetworkAuth'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NetworkAuth'] = $dir . 'NetworkAuth.i18n.php';
+$wgExtensionMessagesFiles['NetworkAuth'] = __DIR__ . '/NetworkAuth.i18n.php';
 $wgExtensionFunctions[] = 'efNetworkAuthSetup';
-$wgExtensionMessagesFiles['NetworkAuth'] = $dir . '/NetworkAuth.i18n.php';
 
 // defaults
 if (!isset($wgNetworkAuthUsers))
@@ -65,8 +61,3 @@ function efNetworkAuthSetup() {
 
   return true;
 }
-
-
-
-
-
