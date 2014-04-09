@@ -43,14 +43,17 @@ class NetworkAuth {
     $context = RequestContext::getMain();
     if ( $user->isLoggedIn() ) {
       return true;
-    } else if ( $context->getTitle()->isSpecial('Userlogin') ) {
-      wfDebug( "NetworkAuth: Login Special page detected" );
-      $user->mId = 0;
-      // taken from User::doLogout()
-      // remove session cookie
-      $user->getRequest()->setSessionData( 'wsUserID', 0 );
-      $user->getRequest()->setSessionData( 'wsUserName', null );
-      return true;
+    } else {
+      $title = $context->getTitle();
+      if ( $title && $title->isSpecial('Userlogin') ) {
+        wfDebug( "NetworkAuth: Login Special page detected" );
+        $user->mId = 0;
+        // taken from User::doLogout()
+        // remove session cookie
+        $user->getRequest()->setSessionData( 'wsUserID', 0 );
+        $user->getRequest()->setSessionData( 'wsUserName', null );
+        return true;
+      }
     }
 
     // fetch the IP address
@@ -164,7 +167,7 @@ class NetworkAuth {
     $newurls = array();
     // generate username
     $newurls['userpage'] = 
-      array('text' => wfMsg('networkauth-purltext', $name, $ip),
+      array('text' => wfMessage('networkauth-purltext', $name, $ip),
             'href' => null, 'active' => true);
 
     // copy default logout url
