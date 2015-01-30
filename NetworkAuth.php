@@ -29,6 +29,7 @@ $wgExtensionCredits['other'][] =
 	'author'         => 'Tim Laqua, Olaf Lenz',
 	'descriptionmsg' => 'networkauth-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:NetworkAuth',
+	'license-name'   => 'GPL-2.0+',
         );
 
 // directly load ExternBib.class.php, as an instance will be created
