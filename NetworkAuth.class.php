@@ -136,7 +136,7 @@ class NetworkAuth {
         $user->saveSettings();
         $user->setCookies();
       }
-      wfRunHooks('UserLoginComplete', array(&$user, ""));
+      Hooks::run('UserLoginComplete', array(&$user, ""));
     }
 
     return true;
