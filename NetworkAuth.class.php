@@ -190,7 +190,7 @@ class NetworkAuth {
     // $this->getTitle() will just give Special:Badtitle, which is
     // not especially useful as a returnto parameter. Use the title
     // from the request instead, if there was one.
-    $page = Title::newFromURL( $request->getVal( 'title', '' ) );
+    $page = Title::newFromText( $request->getVal( 'title', '' ) );
     $page = $request->getVal( 'returnto', $page );
     $a = array();
     if ( strval( $page ) !== '' ) {
