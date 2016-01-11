@@ -19,46 +19,38 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 http://www.gnu.org/copyleft/gpl.html
 */
 
-if ( !defined( 'MEDIAWIKI' ) ) die();
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die();
+}
 
-$wgExtensionCredits['other'][] =
-  array(
-        'path'           => __FILE__,
+$wgExtensionCredits['other'][] = array(
+	'path'           => __FILE__,
 	'name'           => 'NetworkAuth',
-	'version'        => '2.1.1',
-	'author'         => 'Tim Laqua, Olaf Lenz',
+	'version'        => '2.1.2',
+	'author'         => array( 'Tim Laqua', 'Olaf Lenz' ),
 	'descriptionmsg' => 'networkauth-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:NetworkAuth',
 	'license-name'   => 'GPL-2.0+',
-        );
+);
 
-// directly load ExternBib.class.php, as an instance will be created
-// anyway
-require_once __DIR__ . '/NetworkAuth.class.php';
-
+$wgAutoloadClasses['NetworkAuth'] = __DIR__ . '/NetworkAuth.class.php';
 $wgMessagesDirs['NetworkAuth'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['NetworkAuth'] = __DIR__ . '/NetworkAuth.i18n.php';
-$wgExtensionFunctions[] = 'efNetworkAuthSetup';
-
 // defaults
-if (!isset($wgNetworkAuthUsers))
+if ( !isset( $wgNetworkAuthUsers ) )
   $wgNetworkAuthUsers = array();
-if (!isset($wgNetworkAuthSpecialUsers))
+if ( !isset( $wgNetworkAuthSpecialUsers ) )
   $wgNetworkAuthSpecialUsers = array();
 
-function efNetworkAuthSetup() {
-  global
-    $wgHooks,
-    $wgNetworkAuth,
-    $wgNetworkAuthUsers,
-    $wgNetworkAuthSpecialUsers;
+$wgExtensionFunctions[] = function() {
+	global $wgHooks, $wgNetworkAuth, $wgNetworkAuthUsers, $wgNetworkAuthSpecialUsers;
 
-  $wgNetworkAuth = new NetworkAuth($wgNetworkAuthUsers, $wgNetworkAuthSpecialUsers);
+	$wgNetworkAuth = new NetworkAuth( $wgNetworkAuthUsers, $wgNetworkAuthSpecialUsers );
 
-  $wgHooks['UserLoadAfterLoadFromSession'][] =
-    array($wgNetworkAuth, 'onUserLoadAfterLoadFromSession');
-  $wgHooks['PersonalUrls'][] =
-    array($wgNetworkAuth, 'onPersonalUrls');
+	$wgHooks['UserLoadAfterLoadFromSession'][] =
+		array( $wgNetworkAuth, 'onUserLoadAfterLoadFromSession' );
+	$wgHooks['PersonalUrls'][] =
+		array( $wgNetworkAuth, 'onPersonalUrls' );
 
-  return true;
-}
+	return true;
+};
