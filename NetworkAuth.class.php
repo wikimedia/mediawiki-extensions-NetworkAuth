@@ -108,6 +108,33 @@ class NetworkAuth {
 					}
 				}
 
+				// Get IP ranges from a MediaWiki namespace page
+				// Stolen from Block::isWhitelistedFromAutoblocks()
+				if ( isset( $authrecord['ipmsg'] ) ) {
+					$msg = wfMessage( $authrecord['ipmsg'] )
+						->inContentLanguage()
+						->plain();
+					$msgLines = explode( "\n", $msg );
+
+					foreach( $msgLines as $line ) {
+						if ( substr( $line, 0, 1 ) !== '*' ) {
+							continue;
+						}
+						$wlEntry = substr( $line, 1 );
+						$wlEntry = trim( $wlEntry );
+
+						wfDebug( "Checking $ip against $wlEntry..." );
+
+						# Is the IP in this range?
+						if ( IP::isInRange( $ip, $wlEntry ) ) {
+							wfDebug( " IP $ip matches $wlEntry\n" );
+							$matched = true;
+							break 2;
+							return true;
+						}
+					}
+				}
+
 				// test IP pattern
 				if ( isset( $authrecord['ippattern'] ) ) {
 					$patterns = $authrecord['ippattern'];
