@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
-	"networkauth-desc": "Allows you to authenticate users based on network information",
+	"networkauth-desc": "Allows to automatically authenticate users coming from certain network addresses",
 	"networkauth-name": "NetworkAuth",
 	"networkauth-purltext": "NetworkAuth [$1@$2]"
 }
