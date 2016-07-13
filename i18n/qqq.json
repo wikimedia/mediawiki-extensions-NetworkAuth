@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha",
-            "Umherirrender"
-        ]
-    },
-    "networkauth-desc": "{{desc|name=NetworkAuth|url=https://www.mediawiki.org/wiki/Extension:NetworkAuth}}",
-    "networkauth-name": "{{optional}}",
-    "networkauth-purltext": "{{optional}}"
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Umherirrender"
+		]
+	},
+	"networkauth-desc": "{{desc|name=NetworkAuth|url=https://www.mediawiki.org/wiki/Extension:NetworkAuth}}",
+	"networkauth-name": "{{optional}}",
+	"networkauth-purltext": "{{optional}}"
 }

@@ -1,8 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Grondin"
-        ]
-    },
-    "networkauth-desc": "Vous permet d’authentifier les utilisateurs, basé sur des informations en réseau"
+	"@metadata": {
+		"authors": [
+			"Grondin",
+			"Wladek92"
+		]
+	},
+	"networkauth-desc": "Permet d’authentifier automatiquement les utilisateurs arrivant d'adresses réseau spécifiques"
 }

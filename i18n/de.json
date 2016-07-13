@@ -1,8 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Melancholie"
-        ]
-    },
-    "networkauth-desc": "Erlaubt es, Benutzer gem. von Netzwerk-Informationen zu bestätigen."
+	"@metadata": {
+		"authors": [
+			"Melancholie",
+			"Metalhead64"
+		]
+	},
+	"networkauth-desc": "Erlaubt die automatische Authentifizierung von Benutzern, die von bestimmten Netzwerkadressen kommen."
 }

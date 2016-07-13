@@ -1,9 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rotemliss",
-            "YaronSh"
-        ]
-    },
-    "networkauth-desc": "אפשרות להזדהות של משתמשים בהתבסס על נתוני הרשת שלהם"
+	"@metadata": {
+		"authors": [
+			"Rotemliss",
+			"YaronSh",
+			"Guycn2"
+		]
+	},
+	"networkauth-desc": "אפשרות לאמת משתמשים מסוימים באופן אוטומטי לפי נתוני הרשת שלהם"
 }
