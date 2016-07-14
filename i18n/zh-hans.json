@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"networkauth-desc": "允许自动验证来自某个网络地址的用户"
+}

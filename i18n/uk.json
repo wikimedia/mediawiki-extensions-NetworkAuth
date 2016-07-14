@@ -1,8 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ytsukeng Fyvaprol"
-        ]
-    },
-    "networkauth-desc": "Дозволяє автентифікувати учасників на основі інформації мережі"
+	"@metadata": {
+		"authors": [
+			"Ytsukeng Fyvaprol",
+			"Ата"
+		]
+	},
+	"networkauth-desc": "Дозволяє автоматично автентифікувати користувачів з певних мережевих адрес"
 }

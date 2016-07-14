@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "networkauth-desc": "Erlaabt iech et Benotzer op Basis vun Informatiounen aus Dem Reseau z'erkennen"
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"networkauth-desc": "Erlaabt et Benotzer automatesch op Basis vun Informatiounen aus bestëmmte Reseausadressen z'authentifizéieren"
 }

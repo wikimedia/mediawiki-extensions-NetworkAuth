@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "networkauth-desc": "Овозможува да заверка на корисници врз основа на мрежните информации",
-    "networkauth-name": "МрежнаЗаверка",
-    "networkauth-purltext": "МрежнаЗаверка [$1@$2]"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"networkauth-desc": "Овозможвуа автоматска заверка на корисници од извесни мрежни адреси",
+	"networkauth-name": "МрежнаЗаверка",
+	"networkauth-purltext": "МрежнаЗаверка [$1@$2]"
 }

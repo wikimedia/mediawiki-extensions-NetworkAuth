@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zachyoung6969"
+		]
+	},
+	"networkauth-desc": "Allows to automatically authenticate users coming from certain network addresses"
+}
