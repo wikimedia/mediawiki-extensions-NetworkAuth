@@ -1,8 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "아라"
-        ]
-    },
-    "networkauth-desc": "네트워크 정보를 기반으로 한 사용자를 인증할 수 있도록 허용"
+	"@metadata": {
+		"authors": [
+			"아라",
+			"Ykhwong"
+		]
+	},
+	"networkauth-desc": "특정 네트워크 주소에서 들어온 사용자를 자동으로 인증할 수 있도록 허용"
 }
