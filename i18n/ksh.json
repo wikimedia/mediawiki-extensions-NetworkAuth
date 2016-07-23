@@ -4,5 +4,7 @@
 			"Purodha"
 		]
 	},
-	"networkauth-desc": "Määd_et müjjeschlesch, Metmaacher övver Enfommazjohne uss_em Näzwärrek vun beschtemmpte Adräße us enlogge ze lohße."
+	"networkauth-desc": "Määd_et müjjeschlesch, Metmaacher övver Enfommazjohne uss_em Näzwärrek vun beschtemmpte Adräße us ennlogge ze lohße.",
+	"networkauth-name": "Ennlogge övver et Näzwärk",
+	"networkauth-purltext": "Ennlogge övver et Näzwärk [$1@$2]"
 }
