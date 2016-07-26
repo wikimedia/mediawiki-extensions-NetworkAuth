@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "networkauth-desc": "Permite autenticar usuarios basándose na información de la rede"
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"networkauth-desc": "Permite autenticar automáticamente a usuarios procedentes de determinaes direiciones de rede"
 }
