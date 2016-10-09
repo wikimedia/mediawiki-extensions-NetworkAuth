@@ -1,6 +1,8 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "networkauth-desc": "Tillater godkjenning av brukere basert på nettverksinformasjon"
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"networkauth-desc": "Muliggjør automatisk autentisering av brukere som kommer fra visse nettverksadresser"
 }
