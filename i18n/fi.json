@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mobe",
-            "Nike"
-        ]
-    },
-    "networkauth-desc": "Mahdollistaa käyttäjien sisäänkirjautumisen verkkotietojen perusteella."
+	"@metadata": {
+		"authors": [
+			"Mobe",
+			"Nike"
+		]
+	},
+	"networkauth-desc": "Mahdollistaa käyttäjien sisäänkirjautumisen verkkotietojen perusteella."
 }

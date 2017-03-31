@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rancher",
-            "Михајло Анђелковић"
-        ]
-    },
-    "networkauth-desc": "Омогућава ауторизацију корисника према информацијама у мрежи",
-    "networkauth-name": "NetworkAuth",
-    "networkauth-purltext": "NetworkAuth [$1@$2]"
+	"@metadata": {
+		"authors": [
+			"Rancher",
+			"Михајло Анђелковић"
+		]
+	},
+	"networkauth-desc": "Омогућава ауторизацију корисника према информацијама у мрежи",
+	"networkauth-name": "NetworkAuth",
+	"networkauth-purltext": "NetworkAuth [$1@$2]"
 }

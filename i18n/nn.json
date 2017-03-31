@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Harald Khan",
-            "Njardarlogar"
-        ]
-    },
-    "networkauth-desc": "Lèt deg stadfesta brukarar gjennom nettverksinformasjon"
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"networkauth-desc": "Lèt deg stadfesta brukarar gjennom nettverksinformasjon"
 }

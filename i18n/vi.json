@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vinhtantran"
-        ]
-    },
-    "networkauth-desc": "Cho phép bạn xác thực thành viên dựa trên thông tin mạng"
+	"@metadata": {
+		"authors": [
+			"Vinhtantran"
+		]
+	},
+	"networkauth-desc": "Cho phép bạn xác thực thành viên dựa trên thông tin mạng"
 }

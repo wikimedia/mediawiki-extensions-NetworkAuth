@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sp5uhe"
-        ]
-    },
-    "networkauth-desc": "Pozwala na uwierzytelnianie użytkowników w oparciu o informacje sieciowe"
+	"@metadata": {
+		"authors": [
+			"Sp5uhe"
+		]
+	},
+	"networkauth-desc": "Pozwala na uwierzytelnianie użytkowników w oparciu o informacje sieciowe"
 }
