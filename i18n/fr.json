@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Grondin",
-			"Wladek92"
+			"Wladek92",
+			"Seb35"
 		]
 	},
-	"networkauth-desc": "Permet d’authentifier automatiquement les utilisateurs arrivant d'adresses réseau spécifiques"
+	"networkauth-desc": "Permet d’authentifier automatiquement les utilisateurs provenant d’adresses réseau spécifiques"
 }
