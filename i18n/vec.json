@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Candalua"
-        ]
-    },
-    "networkauth-desc": "Te parmete de autenticar utenti in base a le informassion de la rete"
+	"@metadata": {
+		"authors": [
+			"Candalua"
+		]
+	},
+	"networkauth-desc": "Te parmete de autenticar utenti in base a le informassion de la rete"
 }

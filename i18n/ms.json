@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Anakmalaysia"
-        ]
-    },
-    "networkauth-desc": "Membolehkan pengesahan pengguna berasaskan maklumat rangkaian"
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"networkauth-desc": "Membolehkan pengesahan pengguna berasaskan maklumat rangkaian"
 }
