@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
-	"networkauth-desc": "يسمح لك بتأكيد المستخدمين اعتمادا على معلومات الشبكة",
+	"networkauth-desc": "تسمح بمصادقة المستخدمين القادمين من عناوين شبكة معينة تلقائيًا",
 	"networkauth-name": "أوث الشبكة",
 	"networkauth-purltext": "أوث الشبكة [$1@$2]"
 }
