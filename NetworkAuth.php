@@ -35,7 +35,6 @@ $wgExtensionCredits['other'][] = array(
 
 $wgAutoloadClasses['NetworkAuth'] = __DIR__ . '/NetworkAuth.class.php';
 $wgMessagesDirs['NetworkAuth'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NetworkAuth'] = __DIR__ . '/NetworkAuth.i18n.php';
 // defaults
 if ( !isset( $wgNetworkAuthUsers ) )
   $wgNetworkAuthUsers = array();
