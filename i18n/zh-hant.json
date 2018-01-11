@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"networkauth-desc": "允許自動驗證來自於某段網路位址的使用者"
+}
