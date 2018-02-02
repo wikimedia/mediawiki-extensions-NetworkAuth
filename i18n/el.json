@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Omnipaedista"
+			"Omnipaedista",
+			"Nikosgranturismogt"
 		]
 	},
-	"networkauth-desc": "Σας επιτρέπει την πιστοποίηση χρηστών βάσει πληροφοριών δικτύου"
+	"networkauth-desc": "Επιτρέπει την αυτόματη πιστοποίηση χρηστών από συγκεκριμένες διευθύνσεις δικτύου"
 }
