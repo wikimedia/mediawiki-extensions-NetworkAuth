@@ -30,7 +30,7 @@ $wgExtensionCredits['other'][] = array(
 	'author'         => array( 'Tim Laqua', 'Olaf Lenz' ),
 	'descriptionmsg' => 'networkauth-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:NetworkAuth',
-	'license-name'   => 'GPL-2.0+',
+	'license-name'   => 'GPL-2.0-or-later',
 );
 
 $wgAutoloadClasses['NetworkAuth'] = __DIR__ . '/NetworkAuth.class.php';
