@@ -1,6 +1,6 @@
 <?php
 /*
-Copyright (C) 2012,2013 Olaf Lenz <http://www.mediawiki.org/wiki/User:Olenz>
+Copyright (C) 2012,2013 Olaf Lenz <https://www.mediawiki.org/wiki/User:Olenz>
 Copyright (C) 2007,2008,2009,2010,2011 Tim Laqua
 
 This program is free software; you can redistribute it and/or modify
