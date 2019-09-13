@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe"
+			"Sp5uhe",
+			"Rail"
 		]
 	},
-	"networkauth-desc": "Pozwala na uwierzytelnianie użytkowników w oparciu o informacje sieciowe"
+	"networkauth-desc": "Pozwala na automatyczne uwierzytelnianie użytkowników wchodzących z konkretnych adresów internetowych"
 }
