@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"networkauth-desc": "Omogućava automatsku autentikaciju korisnika s izvjesnih mrežnih adresa"
+}
