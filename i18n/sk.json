@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Luky001"
 		]
 	},
-	"networkauth-desc": "Umožňuje overovanie používateľov na základe informácií o sieti"
+	"networkauth-desc": "Umožňuje automaticky overovať používateľov prichádzajúcich z určitých sieťových adries"
 }
