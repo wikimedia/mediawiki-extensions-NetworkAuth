@@ -3,10 +3,11 @@
 		"authors": [
 			"Rancher",
 			"Михајло Анђелковић",
-			"Сербијана"
+			"Сербијана",
+			"BadDog"
 		]
 	},
-	"networkauth-desc": "Омогућава аутоматску ауторизацију корисника са одрежених мрежних адреса",
+	"networkauth-desc": "Омогућава аутоматску потврду идентитета корисника са одређених мрежних адреса",
 	"networkauth-name": "NetworkAuth",
 	"networkauth-purltext": "NetworkAuth [$1@$2]"
 }
