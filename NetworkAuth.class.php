@@ -19,6 +19,8 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 http://www.gnu.org/copyleft/gpl.html
 */
 
+use Wikimedia\IPUtils;
+
 class NetworkAuth {
 	/**
 	 * NetworkAuth constructor.
@@ -90,10 +92,10 @@ class NetworkAuth {
 						$ranges = explode( "\n", $ranges );
 					}
 
-					$hex = hexdec( IP::toHex( $ip ) );
+					$hex = hexdec( IPUtils::toHex( $ip ) );
 
 					foreach ( $ranges as $range ) {
-						$parsedRange = IP::parseRange( $range );
+						$parsedRange = IPUtils::parseRange( $range );
 						$lower = hexdec($parsedRange[0]);
 						$upper = hexdec($parsedRange[1]);
 						if ( $hex >= $lower && $hex <= $upper ) {
@@ -123,7 +125,7 @@ class NetworkAuth {
 						wfDebug( "Checking $ip against $wlEntry..." );
 
 						# Is the IP in this range?
-						if ( IP::isInRange( $ip, $wlEntry ) ) {
+						if ( IPUtils::isInRange( $ip, $wlEntry ) ) {
 							wfDebug( " IP $ip matches $wlEntry\n" );
 							$matched = true;
 							break 2;
