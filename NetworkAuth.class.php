@@ -28,15 +28,17 @@ class NetworkAuth {
 	 * @param $networkauthusers
 	 */
 	function __construct( $authrecords, $networkauthusers ) {
-		if ( is_array( $authrecords ) )
+		if ( is_array( $authrecords ) ) {
 			$this->authrecords = $authrecords;
-		else
+		} else {
 			$this->authrecords = array( $authrecords );
+		}
 
-		if ( is_array( $networkauthusers ) )
+		if ( is_array( $networkauthusers ) ) {
 			$this->networkauthusers = $networkauthusers;
-		else
+		} else {
 			$this->networkauthusers = array( $networkauthusers );
+		}
 	}
 
 	/**
