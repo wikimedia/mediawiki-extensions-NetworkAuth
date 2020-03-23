@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Candalua"
+			"Candalua",
+			"Fierodelveneto"
 		]
 	},
-	"networkauth-desc": "Te parmete de autenticar utenti in base a le informassion de la rete"
+	"networkauth-desc": "El te permete de autentegar automadegamente utenti che provien da determinai indirisi de rete"
 }
