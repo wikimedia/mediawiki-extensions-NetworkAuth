@@ -36,10 +36,12 @@ $wgExtensionCredits['other'][] = array(
 $wgAutoloadClasses['NetworkAuth'] = __DIR__ . '/NetworkAuth.class.php';
 $wgMessagesDirs['NetworkAuth'] = __DIR__ . '/i18n';
 // defaults
-if ( !isset( $wgNetworkAuthUsers ) )
-  $wgNetworkAuthUsers = array();
-if ( !isset( $wgNetworkAuthSpecialUsers ) )
-  $wgNetworkAuthSpecialUsers = array();
+if ( !isset( $wgNetworkAuthUsers ) ) {
+	$wgNetworkAuthUsers = array();
+}
+if ( !isset( $wgNetworkAuthSpecialUsers ) ) {
+	$wgNetworkAuthSpecialUsers = array();
+}
 
 $wgExtensionFunctions[] = function() {
 	global $wgHooks, $wgNetworkAuth, $wgNetworkAuthUsers, $wgNetworkAuthSpecialUsers;
