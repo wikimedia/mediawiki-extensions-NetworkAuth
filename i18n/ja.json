@@ -3,8 +3,8 @@
 		"authors": [
 			"Fievarsty",
 			"Hosiryuhosi",
-			"Shirayuki",
-			"Otokoume"
+			"Otokoume",
+			"Shirayuki"
 		]
 	},
 	"networkauth-desc": "特定のネットワークアドレスを利用する利用者の自動認証ができるようにする"

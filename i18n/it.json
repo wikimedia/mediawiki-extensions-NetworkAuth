@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Darth Kule",
-			"Beta16"
+			"Beta16",
+			"Darth Kule"
 		]
 	},
 	"networkauth-desc": "Permette di autenticare automaticamente utenti provenienti da determinati indirizzi di rete"

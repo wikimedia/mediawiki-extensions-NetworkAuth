@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sanbec",
-			"Macofe"
+			"Macofe",
+			"Sanbec"
 		]
 	},
 	"networkauth-desc": "Permite autenticar automáticamente a usuarios procedentes de ciertas direcciones de red"
