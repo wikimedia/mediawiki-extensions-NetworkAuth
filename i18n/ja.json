@@ -1,10 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fievarsty",
-			"Hosiryuhosi",
-			"Otokoume",
-			"Shirayuki"
+			"Otokoume"
 		]
 	},
 	"networkauth-desc": "特定のネットワークアドレスを利用する利用者の自動認証ができるようにする"
