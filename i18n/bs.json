@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Srdjan m"
+			"Srdjan m",
+			"Srđan"
 		]
 	},
 	"networkauth-desc": "Omogućava automatsku provjeru korisnika s izvjesnih mrežnih adresa"
