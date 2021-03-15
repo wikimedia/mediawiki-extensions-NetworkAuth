@@ -3,8 +3,11 @@
 		"authors": [
 			"Grondin",
 			"Seb35",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
-	"networkauth-desc": "Permet d’authentifier automatiquement les utilisateurs provenant d’adresses réseau spécifiques"
+	"networkauth-desc": "Permet d’authentifier automatiquement les utilisateurs provenant d’adresses réseau spécifiques",
+	"networkauth-name": "NetworkAuth",
+	"networkauth-purltext": "NetworkAuth [$1@$2]"
 }
