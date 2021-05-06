@@ -56,7 +56,7 @@ class NetworkAuth {
 		// If we are on the login or logout page, we should also not be
 		// logged in automatically
 		$context = RequestContext::getMain();
-		if ( $user->isLoggedIn() ) {
+		if ( $user->isRegistered() ) {
 			return true;
 		} else {
 			$title = $context->getTitle();
