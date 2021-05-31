@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"networkauth-desc": "Lehetővé teszi adott hálózati címekről érkező felhasználók automatikus hitelesítését"
+}
