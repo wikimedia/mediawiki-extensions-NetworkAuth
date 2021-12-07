@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Glanthor Reviol"
+			"Glanthor Reviol",
+			"Tacsipacsi"
 		]
 	},
-	"networkauth-desc": "Lehetővé teszi a szerkesztők hálózati információk alapján történő hitelesítését"
+	"networkauth-desc": "Lehetővé teszi adott hálózati címekről érkező felhasználók automatikus hitelesítését"
 }

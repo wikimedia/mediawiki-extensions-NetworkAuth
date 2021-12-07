@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
-			"IvanLanin"
+			"IvanLanin",
+			"Rachmat04"
 		]
 	},
-	"networkauth-desc": "Memungkinkan Anda untuk melakukan otentifikasi pengguna berdasarkan informasi jaringan"
+	"networkauth-desc": "Memungkinkan Anda untuk melakukan autentifikasi otomatis pengguna dari alamat jaringan tertentu"
 }
