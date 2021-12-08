@@ -22,22 +22,29 @@ http://www.gnu.org/copyleft/gpl.html
 use Wikimedia\IPUtils;
 
 class NetworkAuth {
+	/** @var array */
+	private $authrecords;
+
+	/** @var array */
+	private $networkauthusers;
+
 	/**
 	 * NetworkAuth constructor.
-	 * @param $authrecords
-	 * @param $networkauthusers
+	 *
+	 * @param array $authrecords
+	 * @param array $networkauthusers
 	 */
-	function __construct( $authrecords, $networkauthusers ) {
+	public function __construct( $authrecords, $networkauthusers ) {
 		if ( is_array( $authrecords ) ) {
 			$this->authrecords = $authrecords;
 		} else {
-			$this->authrecords = array( $authrecords );
+			$this->authrecords = [ $authrecords ];
 		}
 
 		if ( is_array( $networkauthusers ) ) {
 			$this->networkauthusers = $networkauthusers;
 		} else {
-			$this->networkauthusers = array( $networkauthusers );
+			$this->networkauthusers = [ $networkauthusers ];
 		}
 	}
 
@@ -60,7 +67,7 @@ class NetworkAuth {
 			return true;
 		} else {
 			$title = $context->getTitle();
-			if ( $title && $title->isSpecial('Userlogin') ) {
+			if ( $title && $title->isSpecial( 'Userlogin' ) ) {
 				wfDebug( "NetworkAuth: Login Special page detected" );
 				$user->mId = 0;
 				// taken from User::doLogout()
@@ -77,7 +84,7 @@ class NetworkAuth {
 		$username = '';
 		// loop over NetworkAuth records and see if any of it matches
 		$matched = false;
-		foreach ($this->authrecords as $authrecord) {
+		foreach ( $this->authrecords as $authrecord ) {
 			if ( !isset( $authrecord['user'] ) ) {
 				// no 'user' is specified for record, so don't do anything
 				$record = print_r( $authrecord, true );
@@ -98,8 +105,8 @@ class NetworkAuth {
 
 					foreach ( $ranges as $range ) {
 						$parsedRange = IPUtils::parseRange( $range );
-						$lower = hexdec($parsedRange[0]);
-						$upper = hexdec($parsedRange[1]);
+						$lower = hexdec( $parsedRange[0] );
+						$upper = hexdec( $parsedRange[1] );
 						if ( $hex >= $lower && $hex <= $upper ) {
 							wfDebug( "NetworkAuth: IP $ip is in range!\n" );
 							$matched = true;
@@ -117,7 +124,7 @@ class NetworkAuth {
 						->plain();
 					$msgLines = explode( "\n", $msg );
 
-					foreach( $msgLines as $line ) {
+					foreach ( $msgLines as $line ) {
 						if ( substr( $line, 0, 1 ) !== '*' ) {
 							continue;
 						}
@@ -131,7 +138,6 @@ class NetworkAuth {
 							wfDebug( " IP $ip matches $wlEntry\n" );
 							$matched = true;
 							break 2;
-							return true;
 						}
 					}
 				}
@@ -141,7 +147,7 @@ class NetworkAuth {
 					$patterns = $authrecord['ippattern'];
 					wfDebug( "NetworkAuth: Testing ippattern record: $patterns\n" );
 					if ( !is_array( $patterns ) ) {
-						$patterns = explode("\n", $patterns);
+						$patterns = explode( "\n", $patterns );
 					}
 
 					foreach ( $patterns as $pattern ) {
@@ -155,13 +161,13 @@ class NetworkAuth {
 				// test host pattern
 				if ( isset( $authrecord['hostpattern'] ) ) {
 					$patterns = $authrecord['hostpattern'];
-					if ( ! is_array( $patterns ) ) {
-						$patterns = explode("\n", $patterns);
+					if ( !is_array( $patterns ) ) {
+						$patterns = explode( "\n", $patterns );
 					}
 
 					$host = gethostbyaddr( $ip );
 					foreach ( $patterns as $pattern ) {
-						if ( preg_match( $pattern,  $host) ) {
+						if ( preg_match( $pattern,  $host ) ) {
 							$matched = true;
 							break 2;
 						}
@@ -183,19 +189,19 @@ class NetworkAuth {
 				$user->saveSettings();
 				$user->setCookies();
 			}
-			Hooks::run('UserLoginComplete', array(&$user, ""));
+			Hooks::run( 'UserLoginComplete', [ &$user, "" ] );
 		}
 
 		return true;
 	}
 
 	/**
-	 * for network authenticated users in $this->networkauthusers,
+	 * For network authenticated users in $this->networkauthusers,
 	 * generate login and logout links in the personal urls, and hide
 	 * preferences, talk page, contributions, etc.
 	 *
-	 * @param array $personal_urls
-	 * @param Title $title
+	 * @param array &$personal_urls
+	 * @param Title &$title
 	 * @return bool
 	 * @throws MWException
 	 */
@@ -218,19 +224,19 @@ class NetworkAuth {
 		wfDebug( "NetworkAuth: modifying personal URLs for NetworkAuth special user $name from $ip.\n" );
 
 		// generate personal urls
-		$newurls = array();
+		$newurls = [];
 		// generate username
-		$newurls['userpage'] = array(
+		$newurls['userpage'] = [
 			'text' => wfMessage( 'networkauth-purltext', $name, $ip ),
 			'href' => null, 'active' => true
-		);
+		];
 
 		// copy default logout url
 		$newurls['logout'] = $personal_urls['logout'];
 
 		// GENERATE LOGIN LINK
 
-		$query = array();
+		$query = [];
 		if ( !$request->wasPosted() ) {
 			$query = $request->getValues();
 			unset( $query['title'] );
@@ -247,11 +253,11 @@ class NetworkAuth {
 		// from the request instead, if there was one.
 		$page = Title::newFromText( $request->getVal( 'title', '' ) );
 		$page = $request->getVal( 'returnto', $page );
-		$a = array();
+		$a = [];
 		if ( strval( $page ) !== '' ) {
 			$a['returnto'] = $page;
 			$query = $request->getVal( 'returntoquery', $thisquery );
-			if( $query != '' ) {
+			if ( $query != '' ) {
 				$a['returntoquery'] = $query;
 			}
 		}
@@ -270,18 +276,18 @@ class NetworkAuth {
 		// anonlogin & login are the same
 		$proto = $wgSecureLogin ? PROTO_HTTPS : null;
 
-		$login_url = array(
+		$login_url = [
 			'text' => $context->msg( $loginlink )->text(),
 			'href' => Skin::makeSpecialUrl( 'Userlogin', $returnto, $proto ),
 			'active' => $title->isSpecial( 'Userlogin' ) && ( $loginlink == 'nav-login-createaccount' || !$is_signup ),
 			'class' => $wgSecureLogin ? 'link-https' : ''
-		);
-		$createaccount_url = array(
+		];
+		$createaccount_url = [
 			'text' => $context->msg( 'createaccount' )->text(),
 			'href' => Skin::makeSpecialUrl( 'Userlogin', "$returnto&type=signup", $proto ),
 			'active' => $title->isSpecial( 'Userlogin' ) && $is_signup,
 			'class' => $wgSecureLogin ? 'link-https' : ''
-		);
+		];
 
 		if ( $context->getUser()->isAllowed( 'createaccount' ) && !$wgUseCombinedLoginLink ) {
 			$newurls['createaccount'] = $createaccount_url;

@@ -5,10 +5,19 @@
  */
 class NetworkAuthHooks {
 
+	/**
+	 * @param User $user
+	 * @return void
+	 */
 	public static function onUserLoadAfterLoadFromSession( $user ) {
 		self::getNetworkAuth()->onUserLoadAfterLoadFromSession( $user );
 	}
 
+	/**
+	 * @param array &$personal_urls
+	 * @param Title &$title
+	 * @return void
+	 */
 	public static function onPersonalUrls( &$personal_urls, &$title ) {
 		self::getNetworkAuth()->onPersonalUrls( $personal_urls, $title );
 	}

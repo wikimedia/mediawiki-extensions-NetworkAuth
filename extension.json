@@ -18,8 +18,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"NetworkAuth": "NetworkAuth.class.php",
-		"NetworkAuthHooks": "NetworkAuthHooks.php"
+		"NetworkAuth": "includes/NetworkAuth.php",
+		"NetworkAuthHooks": "includes/NetworkAuthHooks.php"
 	},
 	"Hooks": {
 		"UserLoadAfterLoadFromSession": "NetworkAuthHooks::onUserLoadAfterLoadFromSession",
