@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Vito Genovese"
+			"Vito Genovese",
+			"MuratTheTurkish"
 		]
 	},
-	"networkauth-desc": "Belirli ağ adreslerinden gelen kullanıcıların otomatik olarak kimlik doğrulamasını sağlar"
+	"networkauth-desc": "Belirli ağ adreslerinden gelen kullanıcıların kimliğini otomatik olarak doğrulamaya izin verir"
 }
