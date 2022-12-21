@@ -4,7 +4,7 @@
 			"Michaello"
 		]
 	},
-	"networkauth-desc": "Omogućava autorizaciju korisnika prema informacijama u mreži",
+	"networkauth-desc": "Omogućava automatsku potvrdu identiteta korisnika sa određenih mrežnih adresa",
 	"networkauth-name": "NetworkAuth",
 	"networkauth-purltext": "NetworkAuth [$1@$2]"
 }
