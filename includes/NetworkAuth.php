@@ -19,6 +19,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 http://www.gnu.org/copyleft/gpl.html
 */
 
+use MediaWiki\MediaWikiServices;
 use Wikimedia\IPUtils;
 
 class NetworkAuth {
@@ -180,7 +181,14 @@ class NetworkAuth {
 			wfDebug( "NetworkAuth: Logging in IP $ip, User $username!\n" );
 
 			// log in user
-			$mid = User::idFromName( $username );
+			if ( method_exists( MediaWikiServices::class, 'getUserIdentityLookup' ) ) {
+				// MW 1.36+
+				$userIdentity = MediaWikiServices::getInstance()->getUserIdentityLookup()
+					->getUserIdentityByName( $username );
+				$mid = $userIdentity ? $userIdentity->getId() : 0;
+			} else {
+				$mid = User::idFromName( $username );
+			}
 			$user->setId( $mid );
 			$user->loadFromId();
 			// set cookie and save settings only when this is not a
