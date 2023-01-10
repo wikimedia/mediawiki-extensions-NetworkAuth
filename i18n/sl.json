@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"networkauth-desc": "Omogoča samodejno avtentikacijo uporabnikov z nekaterimi omrežnimi naslovi"
+}
