@@ -197,7 +197,7 @@ class NetworkAuth {
 				$user->saveSettings();
 				$user->setCookies();
 			}
-			Hooks::run( 'UserLoginComplete', [ &$user, "" ] );
+			MediaWikiServices::getInstance()->getHookContainer()->run( 'UserLoginComplete', [ &$user, "" ] );
 		}
 
 		return true;
