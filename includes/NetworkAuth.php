@@ -19,6 +19,8 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 http://www.gnu.org/copyleft/gpl.html
 */
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 use MediaWiki\MediaWikiServices;
 use Wikimedia\IPUtils;
 
@@ -208,16 +210,18 @@ class NetworkAuth {
 	 * generate login and logout links in the personal urls, and hide
 	 * preferences, talk page, contributions, etc.
 	 *
-	 * @param array &$personal_urls
-	 * @param Title &$title
+	 * @param SkinTemplate $sktemplate
+	 * @param array &$links
 	 * @return bool
 	 * @throws MWException
 	 */
-	public function onPersonalUrls( &$personal_urls, &$title ) {
+	public function onSkinTemplateNavigation__Universal( $sktemplate, &$links ) {
 		global $wgUseCombinedLoginLink, $wgSecureLogin;
 
 		// fetch context
-		$context = RequestContext::getMain();
+		$context = $sktemplate->getContext();
+		$title = $context->getTitle();
+		$personal_urls = &$links['user-menu'];
 
 		// generate special personal urls only when the user is a special
 		// networkauth user

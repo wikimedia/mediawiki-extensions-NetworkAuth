@@ -1,5 +1,7 @@
 <?php
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 /**
  * A wrapper class for the hooks of this extension.
  */
@@ -14,12 +16,12 @@ class NetworkAuthHooks {
 	}
 
 	/**
-	 * @param array &$personal_urls
-	 * @param Title &$title
+	 * @param SkinTemplate $sktemplate
+	 * @param array &$links
 	 * @return void
 	 */
-	public static function onPersonalUrls( &$personal_urls, &$title ) {
-		self::getNetworkAuth()->onPersonalUrls( $personal_urls, $title );
+	public static function onSkinTemplateNavigation__Universal( $sktemplate, &$links ) {
+		self::getNetworkAuth()->onSkinTemplateNavigation__Universal( $sktemplate, $links );
 	}
 
 	/**

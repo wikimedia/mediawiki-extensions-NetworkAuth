@@ -23,7 +23,7 @@
 	},
 	"Hooks": {
 		"UserLoadAfterLoadFromSession": "NetworkAuthHooks::onUserLoadAfterLoadFromSession",
-		"PersonalUrls": "NetworkAuthHooks::onPersonalUrls"
+		"SkinTemplateNavigation::Universal": "NetworkAuthHooks::onSkinTemplateNavigation__Universal"
 	},
 	"config": {
 		"NetworkAuthUsers": {
