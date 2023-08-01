@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"networkauth-desc": "Omogućava automatsku autentikaciju korisnika s izvjesnih mrežnih adresa"
+}
