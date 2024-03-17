@@ -170,7 +170,7 @@ class NetworkAuth {
 
 					$host = gethostbyaddr( $ip );
 					foreach ( $patterns as $pattern ) {
-						if ( preg_match( $pattern,  $host ) ) {
+						if ( preg_match( $pattern, $host ) ) {
 							$matched = true;
 							break 2;
 						}
