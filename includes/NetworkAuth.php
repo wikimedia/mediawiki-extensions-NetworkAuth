@@ -22,6 +22,7 @@ http://www.gnu.org/copyleft/gpl.html
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Skin\SkinComponentUtils;
 use Wikimedia\IPUtils;
 
 class NetworkAuth {
@@ -290,13 +291,13 @@ class NetworkAuth {
 
 		$login_url = [
 			'text' => $context->msg( $loginlink )->text(),
-			'href' => Skin::makeSpecialUrl( 'Userlogin', $returnto, $proto ),
+			'href' => SkinComponentUtils::makeSpecialUrl( 'Userlogin', $returnto, $proto ),
 			'active' => $title->isSpecial( 'Userlogin' ) && ( $loginlink == 'nav-login-createaccount' || !$is_signup ),
 			'class' => $wgSecureLogin ? 'link-https' : ''
 		];
 		$createaccount_url = [
 			'text' => $context->msg( 'createaccount' )->text(),
-			'href' => Skin::makeSpecialUrl( 'Userlogin', "$returnto&type=signup", $proto ),
+			'href' => SkinComponentUtils::makeSpecialUrl( 'Userlogin', "$returnto&type=signup", $proto ),
 			'active' => $title->isSpecial( 'Userlogin' ) && $is_signup,
 			'class' => $wgSecureLogin ? 'link-https' : ''
 		];
