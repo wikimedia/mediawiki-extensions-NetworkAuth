@@ -23,6 +23,7 @@ http://www.gnu.org/copyleft/gpl.html
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Skin\SkinComponentUtils;
+use MediaWiki\Title\Title;
 use Wikimedia\IPUtils;
 
 class NetworkAuth {
